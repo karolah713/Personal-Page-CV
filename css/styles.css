@@ -1,150 +1,424 @@
-/********************TAG SELECTORS******************************/
+
 body {
-  color: #40514E;
-  margin: 0;
+  /* font-family: "Montserrat"; */
+  font-family: 'Open Sans', sans-serif !important;
   text-align: center;
-  font-family: 'Merriweather', serif;
 }
 
 h1 {
-  font-size: 5.625rem;
+  font-size: 4rem;
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
-  color: #66BFBF;
+  font-weight: bold;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  color: #66BFBF;
-  padding-bottom: 10px;
+  font-size: 3.2rem;
+  color: #22A39F;
 }
 
 h3 {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  padding-bottom: 5px;
 }
-p{
-  line-height: 2;
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #434242;
+}
+
+h5 {
+  font-size: 1rem;
+  color:black;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 hr {
-  border-style: dotted none none;
-  width: 6%;
-  border-color: silver;
-  border-width: 6px;
-  margin: 80px auto;
-}
-
-a {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-a:hover{
-  color: #EAF6F6;
+  width: 80%;
+  margin: 20px auto;
+  border-color: #727878;
+  opacity: 0.3;
 }
 
 
-/********************CLASS SELECTORS******************************/
-.top-container {
-  background-color: #E4F9F5;
-  padding-top: 100px;
+/* Headings */
+
+.big-heading {
+  line-height: 1.5;
+  color: white;
+}
+
+
+/* Containers */
+
+.container-fluid{
+  padding: 2% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #F3EFE0;
+  color: #fff;
+  padding-top: 40px;
+}
+.white-section {
+  background-color: #fff;
+  padding-top: 40px;
+}
+.grey-section{
+  background-color: #434242;
+  padding-top: 40px;
+}
+.row_padding {
+  padding: 0.5% 15%;
+}
+
+.quotes{
+  font-size: 1.4rem;;
+  text-align: center;
+}
+
+/* Navigation Bar */
+
+/* .navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+} */
+
+
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 10px 20px;
+  background-color: #434242;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  padding: 0 20px;
+}
+
+
+/* Title Section */
+
+/* #title {
+  background-color: #22A39F;
+  color: #fff;
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+} */
+
+
+/* Title Image */
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 100px;
+}
+
+.background_img {
+  height: 100%;
+}
+
+
+/* .title-image {
+  width: 60%;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 30%;
+} */
+
+/* Other Titles */
+.title-box {
+  padding: 1%;
+  text-align: center;
+}
+
+.subtitle-box{
+  text-align: left;
+  color: #22A39F;
+}
+
+
+
+/* Profile Section */
+
+#profile {
   position: relative;
 }
 
-.middle-container {
-  margin: 80px 0;
-}
-
-
-.intro{
-  width: 30%;
-  margin: auto;
-}
-
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 250px;
-  top: 40px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 260px;
-}
-
-.first {
-  font-size: 1.6rem;
-  font-weight: normal;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
+.profile-box {
+  padding: 1%;
   text-align: left;
 }
 
+
+/* Profile Section */
+
+.my_photo {
+  width: 95%;
+}
+
 .design-img {
-  width: 25%;
+  width: 85%;
   float: left;
   margin-right: 30px;
   margin-bottom: 5px;
 }
 
 .code-img {
-  width: 25%;
+  width: 85%;
   float: right;
   margin-left: 30px;
   margin-bottom: 5px;
 }
 
 
-.bottom-container {
-  background-color: #66BFBF;
-  padding: 50px 0 20px;
+/* Experience Section */
+.listing-box {
+  padding: 1%;
+  text-align: left;
+  padding-left: 14px;
 }
 
-.btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
+/* Ability Section */
+
+.checked {
+  color: #22A39F;
+}
+.unchecked {
+  color: gray;
+}
+.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.ability-title{
+  display: inline-block;
+  width: 60%;
+  text-align: left;
+}
+.ability-score{
+  float: right;
+  color: #DFE0E0;
+  font-size: 14px;
+}
+
+
+
+/* Projects Section */
+
+.row_padding-projects {
+  padding: 0.5% 10%;
+  padding-bottom: 5%;
+}
+
+.project-img {
+  width: 100%;
+}
+
+
+/* Contact Section */
+
+.contact_icons {
+  padding: 0 15%;
+  text-align: left;
+}
+
+.social-icon {
+  margin-right: 20px;
+  color: #BCBCBC;
+	font-size: 30px;
+  height: 30px;
+}
+
+.social-text{
+  color: #BCBCBC;
+  height: 40px;
+}
+
+.social-box {
+  padding: 1%;
+  text-align: left;
+}
+
+
+
+
+/* @media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+} */
+
+
+@media (max-width: 990px) {
+
+  .my_photo {
+    width: 55%;
+  }
+  .design-img {
+    width: 50%;
+    float: none;
+    margin: 0 0;
+  }
+  .code-img {
+    width: 50%;
+    float: none;
+    margin: 0 0;
+  }
+  .profile-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Centering y-axis */
+    align-items :center; /* Centering x-axis */
+  }
+}
+
+
+
+/* Projects Section */
+/* ***EFFECTS*** */
+
+.project-item {
+	background: #22A39F;
+	color: #FFF;
+  position: relative;
+  overflow: hidden;
+}
+.project-item:hover img {
+	opacity: 0.2;
+}
+.project-item h3 {
+  font-weight: 600;
+  opacity: 0;
+  position: relative;
+  overflow: hidden;
+	padding-bottom: 10px;
+}
+.project-item:hover h3 {
+	opacity: 1;
+}
+
+.project-item a {
   text-decoration: none;
+  color: white;
+}
+.project-text{
+  text-align: left;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 20px 20px;
+  width: 100%;
 }
 
-.btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  text-decoration: none;
+.project-item p {
+	/* padding-top: 1px; */
+  color: #FFF;
+  opacity: 0;
+  margin-bottom: 0.5rem;
+}
+.project-item:hover p {
+  opacity: 1;
 }
 
-.copyright{
-  color: #EAF6F6;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.75rem;
-  padding: 20px 0;
-
+.project-item h3::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	content: '';
+	transition: transform 0.35s;
+	transform: translate3d(-100%,0,0);
 }
-/********************ID SELECTORS******************************/
+.project-item:hover h3::after {
+	transform: translate3d(0,0,0);
+}
+
+
+
+
+
+
+/* ******************* */
+
+/* html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+} */
+
+/* .top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+} */
+
+/* @media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+} */
+
+/* h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+} */
